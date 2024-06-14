@@ -1,0 +1,42 @@
+2024-06-14 15:03:38.448 [info] Extension host with pid 4759 started
+2024-06-14 15:03:38.486 [info] Lock '/home/user/.codeoss-cloudworkstations/data/User/workspaceStorage/10a07537/vscode.lock': Lock acquired.
+2024-06-14 15:03:38.744 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-14 15:03:40.598 [error] No bundle location found for extension vscode.git-base
+2024-06-14 15:03:40.605 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-14 15:03:41.358 [error] No bundle location found for extension vscode.git
+2024-06-14 15:03:41.466 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2024-06-14 15:03:41.475 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2024-06-14 15:03:41.490 [warning] Using default string since no string found in i18n bundle that has the key: Enables the following features: {0}
+2024-06-14 15:03:41.490 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2024-06-14 15:03:41.504 [warning] Using default string since no string found in i18n bundle that has the key: Git History
+2024-06-14 15:03:41.506 [info] Eager extensions activated
+2024-06-14 15:03:41.507 [info] ExtensionService#_doActivateExtension google.cloud-workstations, startup: false, activationEvent: 'onStartupFinished'
+2024-06-14 15:03:41.507 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-14 15:03:41.507 [info] ExtensionService#_doActivateExtension google.monospace, startup: false, activationEvent: 'onStartupFinished'
+2024-06-14 15:03:41.508 [info] ExtensionService#_doActivateExtension google.monospace-aida, startup: false, activationEvent: 'onStartupFinished'
+2024-06-14 15:03:42.384 [error] No bundle location found for extension google.cloud-workstations
+2024-06-14 15:03:42.616 [error] No bundle location found for extension google.monospace-aida
+2024-06-14 15:03:42.748 [error] No bundle location found for extension google.monospace
+2024-06-14 15:03:44.032 [error] No bundle location found for extension vscode.merge-conflict
+2024-06-14 15:03:44.064 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-06-14 15:03:44.064 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-06-14 15:03:45.112 [error] TypeError: Cannot read properties of undefined (reading 'uri')
+	at /opt/code-oss/extensions/monospace/dist/extension.js:2:12808488
+	at /opt/code-oss/extensions/monospace/dist/extension.js:2:300
+	at Set.forEach (<anonymous>)
+	at t.EventEmitter.fire (/opt/code-oss/extensions/monospace/dist/extension.js:2:288)
+	at C.<anonymous> (/opt/code-oss/extensions/monospace/dist/extension.js:2:3784)
+	at C.emit (node:events:513:28)
+	at e.exports.z (/opt/code-oss/extensions/monospace/dist/extension.js:2:13154590)
+	at e.exports.emit (node:events:513:28)
+	at /opt/code-oss/extensions/monospace/dist/extension.js:2:13130401
+	at node:internal/process/task_queues:140:7
+	at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+	at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-14 15:03:48.892 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-14 15:03:48.892 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-14 15:03:48.893 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-14 15:03:49.595 [info] Extension host terminating: received terminate message from renderer
+2024-06-14 15:03:49.597 [info] Lock '/home/user/.codeoss-cloudworkstations/data/User/workspaceStorage/10a07537/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-14 15:03:49.610 [info] Extension host with pid 4759 exiting with code 0

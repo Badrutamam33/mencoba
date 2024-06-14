@@ -1,0 +1,7 @@
+2024-06-14 15:02:53.249 [info] Extension host with pid 4665 started
+2024-06-14 15:02:53.287 [info] Lock '/home/user/.codeoss-cloudworkstations/data/User/workspaceStorage/10a07537/vscode.lock': Lock acquired.
+2024-06-14 15:02:53.592 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-14 15:02:54.594 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-14 15:02:55.218 [info] Extension host terminating: received terminate message from renderer
+2024-06-14 15:02:55.219 [info] Lock '/home/user/.codeoss-cloudworkstations/data/User/workspaceStorage/10a07537/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-14 15:02:55.220 [info] Extension host with pid 4665 exiting with code 0

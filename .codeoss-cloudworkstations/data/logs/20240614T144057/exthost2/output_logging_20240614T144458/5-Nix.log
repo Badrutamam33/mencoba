@@ -1,0 +1,50 @@
+I[14:45:08.618] 1113: nixd 1.2.3 started
+I[14:45:08.620] 1113: <-- initialize(0)
+I[14:45:08.621] 1113: --> reply:initialize(0)
+I[14:45:08.631] 1113: <-- initialized
+I[14:45:08.632] 1113: --> call workspace/configuration(1)
+I[14:45:08.636] 1113: <-- textDocument/didOpen
+I[14:45:08.636] 1113: --> notify textDocument/publishDiagnostics
+I[14:45:08.638] 1113: --> notify nixd/ipc/textDocument/didOpen
+I[14:45:08.639] 1113: --> notify nixd/ipc/eval
+I[14:45:08.639] 1113: <-- reply(1)
+I[14:45:08.642] 1113: --> notify nixd/ipc/textDocument/didOpen
+I[14:45:08.642] 1113: --> notify nixd/ipc/eval
+I[14:45:08.644] 1113: --> notify nixd/ipc/evalOptionSet
+I[14:45:08.760] 1120: nixd 1.2.3 started
+I[14:45:08.772] 1120: <-- nixd/ipc/textDocument/didOpen
+I[14:45:08.773] 1120: <-- nixd/ipc/eval
+I[14:45:08.778] 1120: --> notify nixd/ipc/diagnostic
+I[14:45:08.779] 1113: <-- nixd/ipc/diagnostic
+I[14:45:08.779] 1113: received diagnostic from worker: 2
+I[14:45:08.847] 1122: nixd 1.2.3 started
+I[14:45:08.853] 1122: <-- nixd/ipc/evalOptionSet
+I[14:45:08.854] 1122: evaluation on installable , requested depth: 0
+I[14:45:08.864] 1118: nixd 1.2.3 started
+I[14:45:08.870] 1118: <-- nixd/ipc/textDocument/didOpen
+I[14:45:08.872] 1118: <-- nixd/ipc/eval
+I[14:45:08.877] 1118: --> notify nixd/ipc/diagnostic
+I[14:45:08.877] 1113: <-- nixd/ipc/diagnostic
+I[14:45:08.877] 1113: received diagnostic from worker: 2
+I[14:45:09.507] 1122: options are ready
+I[14:48:06.786] 1113: <-- textDocument/didClose
+I[14:48:28.541] 1113: <-- textDocument/didOpen
+I[14:48:28.542] 1113: --> notify textDocument/publishDiagnostics
+I[14:48:28.543] 1113: --> notify nixd/ipc/textDocument/didOpen
+I[14:48:28.543] 1113: --> notify nixd/ipc/eval
+I[14:48:28.548] 1113: <-- textDocument/documentSymbol(1)
+I[14:48:28.550] 1113: --> reply:textDocument/documentSymbol(1)
+I[14:48:28.571] 1113: <-- textDocument/documentLink(2)
+I[14:48:28.572] 1113: --> reply:textDocument/documentLink(2)
+I[14:48:28.608] 2054: nixd 1.2.3 started
+I[14:48:28.611] 2054: <-- nixd/ipc/textDocument/didOpen
+I[14:48:28.611] 2054: <-- nixd/ipc/eval
+I[14:48:28.614] 2054: --> notify nixd/ipc/diagnostic
+I[14:48:28.614] 1113: <-- nixd/ipc/diagnostic
+I[14:48:28.614] 1113: received diagnostic from worker: 3
+I[14:49:07.706] 1113: <-- textDocument/didClose
+I[15:03:08.869] 1113: <-- shutdown(3)
+[Error - 3:03:08 PM] Connection to server got closed. Server will not be restarted.
+[Error - 3:03:09 PM] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
